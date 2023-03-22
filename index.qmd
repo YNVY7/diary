@@ -4,8 +4,7 @@ My name is Ella, I am from Buckinghamshire, just outside of London. I did my und
 
 Outside of academics, I really love art -- I was president of Art Society back in Southampton last year! Here are some examples of paintings I have done:
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+```{r echo=FALSE, out.width = "70%", fig.align='center', cache=FALSE}
+knitr::include_graphics('myart.png')
 
-```{r}
-1 + 1
 ```
