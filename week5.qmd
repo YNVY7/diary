@@ -6,6 +6,55 @@ date: "2023-03-23"
 
 ## Summary
 
+What is GEE?
+
+-   A platform which provides a catalog of satellite imagery and geospatial data for analysis.
+
+-   Provides the ability to use large datasets at a very fast pace, applying self-written code.
+
+-   Uses Javascript
+
+-   Code runs on both the client and server side
+
+Why is it used?
+
+-   Complete image does not need to be loaded many times when looping
+
+-   Public datasets, openly available use
+
+Usage details
+
+-   Image scale = pixel resolution, set by the output
+
+-   All data converted automatically to the Mercator projection
+
+-   Object = vector, raster, feature, string, number - belong to a class
+
+-   Image = raster
+
+-   Geometry = point, line, polygon - no attributes
+
+-   Feature = geometry with attributes
+
+```{r echo=FALSE, out.width = "100%", fig.align='center', cache=FALSE, fig.cap="Google Earth Engine Code Editor interface (Source: Google Earth Engine"}
+knitr::include_graphics('GEEinterface.png')
+
+```
+
+What can be done with GEE?
+
+-   Spatial operations such as joins, zonal statistics ( reduceRegion() ) , filtering
+
+-   Reducing imagery by region or neighbourhood
+
+-   Machine learning, classification, deep learning
+
+-   Imagery is accessible from multiple sensors
+
+-   Linear regression, multivariate multiple linear regression
+
+-   Joins - spatial joins, intersections\
+
 ## Applications
 
 ## Reflections

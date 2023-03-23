@@ -270,7 +270,7 @@
     "href": "week5.html#summary",
     "title": "5  Week 5 - Google Earth Engine",
     "section": "5.1 Summary",
-    "text": "5.1 Summary"
+    "text": "5.1 Summary\nWhat is GEE?\n\nA platform which provides a catalog of satellite imagery and geospatial data for analysis.\nProvides the ability to use large datasets at a very fast pace, applying self-written code.\nUses Javascript\nCode runs on both the client and server side\n\nWhy is it used?\n\nComplete image does not need to be loaded many times when looping\nPublic datasets, openly available use\n\nUsage details\n\nImage scale = pixel resolution, set by the output\nAll data converted automatically to the Mercator projection\nObject = vector, raster, feature, string, number - belong to a class\nImage = raster\nGeometry = point, line, polygon - no attributes\nFeature = geometry with attributes\n\n\n\n\n\n\nGoogle Earth Engine Code Editor interface (Source: Google Earth Engine\n\n\n\n\nWhat can be done with GEE?\n\nSpatial operations such as joins, zonal statistics ( reduceRegion() ) , filtering\nReducing imagery by region or neighbourhood\nMachine learning, classification, deep learning\nImagery is accessible from multiple sensors\nLinear regression, multivariate multiple linear regression\nJoins - spatial joins, intersections"
   },
   {
     "objectID": "week5.html#applications",
