@@ -179,7 +179,7 @@
     "href": "week3.html#summary",
     "title": "3  Week 3 - Corrections",
     "section": "3.1 Summary",
-    "text": "3.1 Summary\nThe summary of this week’s content is presented below in the mind map.\n\n\n\n\n\n\n\n\n\nSomething I wanted to add onto this mind map for the summary is the difference between radiance and reflectance. Reflectance is the property of a material, and the proportion of radiation hitting a surface to the radiation reflecting off of it. Radiance is how much light the instrument measures and depends on illumination, the orientation and position of what is being observed and the light's path."
+    "text": "3.1 Summary\nThe summary of this week’s content is presented below in the mind map (I realised in the middle it says week 2 instead of 3 - my mistake!).\n\n\n\n\n\n\n\n\n\nSomething I wanted to add onto this mind map for the summary is the difference between radiance and reflectance. Reflectance is the property of a material, and the proportion of radiation hitting a surface to the radiation reflecting off of it. Radiance is how much light the instrument measures and depends on illumination, the orientation and position of what is being observed and the light's path."
   },
   {
     "objectID": "week3.html#applications",
@@ -229,5 +229,124 @@
     "title": "8  Week 8 - Temperature and policy",
     "section": "8.4 References",
     "text": "8.4 References\nMushore, T., Mutanga, O., et al. (2018) 'Determining extreme heat vulnerability of Harare Metropolitan City using multispectral remote sensing and socio-economic data', Journal of Spatial Science, 63, 1, pp. 173-191\nNavarro-Estupinan, J., Robles-Morua, A., et al. (2020) 'Heat risk mapping through spatial analysis of remotely-sensed data and socioeconomic vulnerability in Hermosillo, México', Urban Climate, 31\nUnited States Environmental Protection Agency (EPA) (2023) 'Heat Island Impacts', available at: https://www.epa.gov/heatislands/heat-island-impacts#_ftn6 (accessed: 20.3.23)"
+  },
+  {
+    "objectID": "week1.html#reflection",
+    "href": "week1.html#reflection",
+    "title": "1  Week 1 - Introduction to Remote Sensing",
+    "section": "1.3 Reflection",
+    "text": "1.3 Reflection\nI found this lecture really interesting – it made me realise how little I knew about remote sensing, so everything in the lecture was a learning point! I did not realise how much it is used for, and it has inspired me to look into using it for my own research. It also made me look into certain data sources I have used before which I did not realise were created in part using remote sensing data. In particular, the data from WorldPop (one of the things I really liked about Southampton!), where they estimate populations by combining land cover, night time imagery and vegetation with other data and geospatial sources to produce a random forest regression tree model – really cool! I find it interesting how remotely sensed data can be manipulated to show different things and to highlight certain features of the land surface. In future I would like to use remotely sensed data in my dissertation, especially as it involves climate change where specific environmental factors will be included."
+  },
+  {
+    "objectID": "week4.html#summary",
+    "href": "week4.html#summary",
+    "title": "4  Week 4 - Policy",
+    "section": "4.1 Summary",
+    "text": "4.1 Summary"
+  },
+  {
+    "objectID": "week4.html#applications",
+    "href": "week4.html#applications",
+    "title": "4  Week 4 - Policy",
+    "section": "4.2 Applications",
+    "text": "4.2 Applications"
+  },
+  {
+    "objectID": "week4.html#reflections",
+    "href": "week4.html#reflections",
+    "title": "4  Week 4 - Policy",
+    "section": "4.3 Reflections",
+    "text": "4.3 Reflections"
+  },
+  {
+    "objectID": "week4.html#references",
+    "href": "week4.html#references",
+    "title": "4  Week 4 - Policy",
+    "section": "4.4 References",
+    "text": "4.4 References"
+  },
+  {
+    "objectID": "week5.html#summary",
+    "href": "week5.html#summary",
+    "title": "5  Week 5 - Google Earth Engine",
+    "section": "5.1 Summary",
+    "text": "5.1 Summary"
+  },
+  {
+    "objectID": "week5.html#applications",
+    "href": "week5.html#applications",
+    "title": "5  Week 5 - Google Earth Engine",
+    "section": "5.2 Applications",
+    "text": "5.2 Applications"
+  },
+  {
+    "objectID": "week5.html#reflections",
+    "href": "week5.html#reflections",
+    "title": "5  Week 5 - Google Earth Engine",
+    "section": "5.3 Reflections",
+    "text": "5.3 Reflections"
+  },
+  {
+    "objectID": "week5.html#references",
+    "href": "week5.html#references",
+    "title": "5  Week 5 - Google Earth Engine",
+    "section": "5.4 References",
+    "text": "5.4 References"
+  },
+  {
+    "objectID": "week6.html#summary",
+    "href": "week6.html#summary",
+    "title": "6  Week 6 - Classification I",
+    "section": "6.1 Summary",
+    "text": "6.1 Summary"
+  },
+  {
+    "objectID": "week6.html#applications",
+    "href": "week6.html#applications",
+    "title": "6  Week 6 - Classification I",
+    "section": "6.2 Applications",
+    "text": "6.2 Applications"
+  },
+  {
+    "objectID": "week6.html#reflection",
+    "href": "week6.html#reflection",
+    "title": "6  Week 6 - Classification I",
+    "section": "6.3 Reflection",
+    "text": "6.3 Reflection"
+  },
+  {
+    "objectID": "week6.html#references",
+    "href": "week6.html#references",
+    "title": "6  Week 6 - Classification I",
+    "section": "6.4 References",
+    "text": "6.4 References"
+  },
+  {
+    "objectID": "week7.html#summary",
+    "href": "week7.html#summary",
+    "title": "7  Week 7 - Classification II",
+    "section": "7.1 Summary",
+    "text": "7.1 Summary"
+  },
+  {
+    "objectID": "week7.html#applications",
+    "href": "week7.html#applications",
+    "title": "7  Week 7 - Classification II",
+    "section": "7.2 Applications",
+    "text": "7.2 Applications"
+  },
+  {
+    "objectID": "week7.html#reflection",
+    "href": "week7.html#reflection",
+    "title": "7  Week 7 - Classification II",
+    "section": "7.3 Reflection",
+    "text": "7.3 Reflection"
+  },
+  {
+    "objectID": "week7.html#references",
+    "href": "week7.html#references",
+    "title": "7  Week 7 - Classification II",
+    "section": "7.4 References",
+    "text": "7.4 References"
   }
 ]
