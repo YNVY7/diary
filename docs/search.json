@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "CASA0023 Learning Diary",
     "section": "",
-    "text": "Personal Introduction\nMy name is Ella, I am from Buckinghamshire, just outside of London. I did my undergraduate degree at the University of Southampton , where I studied a BA in Geography. During my time there I developed a particular interest in global health, maternal health and GIS, and I did my dissertation in mapping access to health care for pregnant women in Zambia. Currently, I am studying an MSc in Social and Geographic Data Science and I am planning to do my dissertation on a country in sub-Saharan Africa, looking at the relationship between long-term exposures to climate-related factors (such as extreme heat waves) during pregnancy on maternal health outcomes.\nOutside of academics, I really love art – I was president of Art Society back in Southampton last year! Here are some examples of paintings I have done:\n\n\n\n\n\n\n\n\n\nI decided to study this master's in order to advance my skills in geospatial analysis and to learn how to code as I am completely new to it! I have never studied remote sensing before so I am taking this course to learn about it and I hope to be able to use what I learn from this module to make use of remote sensing data in the future – and even for my dissertation!"
+    "text": "Personal Introduction\nMy name is Ella, I am from Buckinghamshire, just outside of London. I did my undergraduate degree at the University of Southampton , where I studied a BA in Geography. During my time there I developed a particular interest in global health, maternal health and GIS, and I did my dissertation in mapping access to health care for pregnant women in Zambia. Currently, I am studying an MSc in Social and Geographic Data Science and I am planning to do my dissertation on a country in sub-Saharan Africa, looking at the relationship between long-term exposures to climate-related factors (such as extreme heat waves) during pregnancy on maternal health outcomes.\nOutside of academics, I really love art – I was president of Art Society back in Southampton last year! Here are some examples of paintings I have done:\n\n\n\n\n\n\n\n\n\nI decided to study this master’s in order to advance my skills in geospatial analysis and to learn how to code as I am completely new to it! I have never studied remote sensing before so I am taking this course to learn about it and I hope to be able to use what I learn from this module to make use of remote sensing data in the future – and even for my dissertation!"
   },
   {
     "objectID": "intro.html",
@@ -54,5 +54,26 @@
     "title": "4  week3",
     "section": "4.2 Including Plots",
     "text": "4.2 Including Plots\nYou can also embed plots, for example:\n\n\n\n\n\nNote that the echo = FALSE parameter was added to the code chunk to prevent printing of the R code that generated the plot."
+  },
+  {
+    "objectID": "week2.html#xaringan-presentation---ikonos-2",
+    "href": "week2.html#xaringan-presentation---ikonos-2",
+    "title": "2  Week 2 - Xaringan",
+    "section": "2.1 Xaringan Presentation - IKONOS-2",
+    "text": "2.1 Xaringan Presentation - IKONOS-2\nThe content for week 2 is a presentation in Xaringan on the Ikonos-2 satellite. The presentation is below, and the summary, application and reflection are all included in the slides."
+  },
+  {
+    "objectID": "week1.html",
+    "href": "week1.html",
+    "title": "1  Week 1 - Introduction to Remote Sensing",
+    "section": "",
+    "text": "2 Summary\nThe summary of lecture 1 will be provided in a hand drawn mind map as provided below, as I find mind maps really useful for providing overviews of topics! The week 1 lecture covered the basics of remote sensing and what it is used for.\n\n\n3 Applications\n\n\n4 Reflections"
+  },
+  {
+    "objectID": "week3.html",
+    "href": "week3.html",
+    "title": "3  Week 3 - Corrections",
+    "section": "",
+    "text": "4 Summary\n\n\n5 Applications\n\n\n6 Reflections"
   }
 ]

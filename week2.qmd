@@ -3,3 +3,10 @@ title: "Week 2 - Xaringan"
 ---
 
 ## Xaringan Presentation - IKONOS-2
+
+The content for week 2 is a presentation in Xaringan on the Ikonos-2 satellite. The presentation is below, and the summary, application and reflection are all included in the slides.
+
+```{r xaringan_embed, echo=FALSE}
+xaringanExtra::embed_xaringan(url = "https://ynvy7.github.io/xaringan/", ratio = "4:3")
+
+```
