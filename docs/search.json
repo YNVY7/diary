@@ -67,7 +67,7 @@
     "href": "week1.html",
     "title": "1  Week 1 - Introduction to Remote Sensing",
     "section": "",
-    "text": "2 Summary\nThe summary of lecture 1 will be provided in a hand drawn mind map as provided below, as I find mind maps really useful for providing overviews of topics! The week 1 lecture covered the basics of remote sensing and what it is used for.\n\n\n3 Applications\n\n\n4 Reflections"
+    "text": "2 Summary\nThe summary of lecture 1 will be provided in a hand drawn mind map as provided below, as I find mind maps really useful for providing overviews of topics! The week 1 lecture covered the basics of remote sensing and what it is used for.\n\n\n\n\n\n\n\n\n\n\n\n3 Applications\n\n\n4 Reflections"
   },
   {
     "objectID": "week3.html",
@@ -75,5 +75,159 @@
     "title": "3  Week 3 - Corrections",
     "section": "",
     "text": "4 Summary\n\n\n5 Applications\n\n\n6 Reflections"
+  },
+  {
+    "objectID": "week4.html#r-markdown",
+    "href": "week4.html#r-markdown",
+    "title": "4  week4.qmd",
+    "section": "4.1 R Markdown",
+    "text": "4.1 R Markdown\nThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.\nWhen you click the Knit button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:\n\nsummary(cars)\n\n     speed           dist       \n Min.   : 4.0   Min.   :  2.00  \n 1st Qu.:12.0   1st Qu.: 26.00  \n Median :15.0   Median : 36.00  \n Mean   :15.4   Mean   : 42.98  \n 3rd Qu.:19.0   3rd Qu.: 56.00  \n Max.   :25.0   Max.   :120.00"
+  },
+  {
+    "objectID": "week4.html#including-plots",
+    "href": "week4.html#including-plots",
+    "title": "4  week4.qmd",
+    "section": "4.2 Including Plots",
+    "text": "4.2 Including Plots\nYou can also embed plots, for example:\n\n\n\n\n\nNote that the echo = FALSE parameter was added to the code chunk to prevent printing of the R code that generated the plot."
+  },
+  {
+    "objectID": "week5.html#r-markdown",
+    "href": "week5.html#r-markdown",
+    "title": "5  week5.qmd",
+    "section": "5.1 R Markdown",
+    "text": "5.1 R Markdown\nThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.\nWhen you click the Knit button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:\n\nsummary(cars)\n\n     speed           dist       \n Min.   : 4.0   Min.   :  2.00  \n 1st Qu.:12.0   1st Qu.: 26.00  \n Median :15.0   Median : 36.00  \n Mean   :15.4   Mean   : 42.98  \n 3rd Qu.:19.0   3rd Qu.: 56.00  \n Max.   :25.0   Max.   :120.00"
+  },
+  {
+    "objectID": "week5.html#including-plots",
+    "href": "week5.html#including-plots",
+    "title": "5  week5.qmd",
+    "section": "5.2 Including Plots",
+    "text": "5.2 Including Plots\nYou can also embed plots, for example:\n\n\n\n\n\nNote that the echo = FALSE parameter was added to the code chunk to prevent printing of the R code that generated the plot."
+  },
+  {
+    "objectID": "week6.html#r-markdown",
+    "href": "week6.html#r-markdown",
+    "title": "6  wee6.qmd",
+    "section": "6.1 R Markdown",
+    "text": "6.1 R Markdown\nThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.\nWhen you click the Knit button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:\n\nsummary(cars)\n\n     speed           dist       \n Min.   : 4.0   Min.   :  2.00  \n 1st Qu.:12.0   1st Qu.: 26.00  \n Median :15.0   Median : 36.00  \n Mean   :15.4   Mean   : 42.98  \n 3rd Qu.:19.0   3rd Qu.: 56.00  \n Max.   :25.0   Max.   :120.00"
+  },
+  {
+    "objectID": "week6.html#including-plots",
+    "href": "week6.html#including-plots",
+    "title": "6  wee6.qmd",
+    "section": "6.2 Including Plots",
+    "text": "6.2 Including Plots\nYou can also embed plots, for example:\n\n\n\n\n\nNote that the echo = FALSE parameter was added to the code chunk to prevent printing of the R code that generated the plot."
+  },
+  {
+    "objectID": "week7.html#r-markdown",
+    "href": "week7.html#r-markdown",
+    "title": "7  week7.qmd",
+    "section": "7.1 R Markdown",
+    "text": "7.1 R Markdown\nThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.\nWhen you click the Knit button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:\n\nsummary(cars)\n\n     speed           dist       \n Min.   : 4.0   Min.   :  2.00  \n 1st Qu.:12.0   1st Qu.: 26.00  \n Median :15.0   Median : 36.00  \n Mean   :15.4   Mean   : 42.98  \n 3rd Qu.:19.0   3rd Qu.: 56.00  \n Max.   :25.0   Max.   :120.00"
+  },
+  {
+    "objectID": "week7.html#including-plots",
+    "href": "week7.html#including-plots",
+    "title": "7  week7.qmd",
+    "section": "7.2 Including Plots",
+    "text": "7.2 Including Plots\nYou can also embed plots, for example:\n\n\n\n\n\nNote that the echo = FALSE parameter was added to the code chunk to prevent printing of the R code that generated the plot."
+  },
+  {
+    "objectID": "week8.html#r-markdown",
+    "href": "week8.html#r-markdown",
+    "title": "8  week8.qmd",
+    "section": "8.1 R Markdown",
+    "text": "8.1 R Markdown\nThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.\nWhen you click the Knit button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:\n\nsummary(cars)\n\n     speed           dist       \n Min.   : 4.0   Min.   :  2.00  \n 1st Qu.:12.0   1st Qu.: 26.00  \n Median :15.0   Median : 36.00  \n Mean   :15.4   Mean   : 42.98  \n 3rd Qu.:19.0   3rd Qu.: 56.00  \n Max.   :25.0   Max.   :120.00"
+  },
+  {
+    "objectID": "week8.html#including-plots",
+    "href": "week8.html#including-plots",
+    "title": "8  week8.qmd",
+    "section": "8.2 Including Plots",
+    "text": "8.2 Including Plots\nYou can also embed plots, for example:\n\n\n\n\n\nNote that the echo = FALSE parameter was added to the code chunk to prevent printing of the R code that generated the plot."
+  },
+  {
+    "objectID": "week1.html#summary",
+    "href": "week1.html#summary",
+    "title": "1  Week 1 - Introduction to Remote Sensing",
+    "section": "1.1 Summary",
+    "text": "1.1 Summary\nThe summary of lecture 1 will be provided in a hand drawn mind map as shown below, as I find mind maps really useful for over viewing topics! The week 1 lecture covered the basics of remote sensing and what it is used for."
+  },
+  {
+    "objectID": "week1.html#applications",
+    "href": "week1.html#applications",
+    "title": "1  Week 1 - Introduction to Remote Sensing",
+    "section": "1.2 Applications",
+    "text": "1.2 Applications\nRemotely sensed data is used many different ways. It is often used in tracking both natural and man-made changes such as forest fires and urban growth, and is frequently used in weather prediction through cloud tracking (USGS, 2023). The image below demonstrates the widespread applications of remote sensing.\n\n\n\n\n\n(Source: Vasile, 2011)\n\n\n\n\nA specific example of an application of remote sensing is the use of it during the COVID-19 pandemic. It was used in different ways, such as to provide meteorological data to inform on disease transmission determinants, mapping ground features and activities to anticipate industry changes, job losses and food shortages, and how land use data could provide further insight into changing economic activities (Louw, et al., 2022). All of these uses helped to inform policy and have provided information into future mitigation strategies. Another example is that remotely sensed data was used to explain 62% of variations in wealth in a rural area in Kenya which contributed to evidence that satellite data could be used to predict poverty and to help with SDG goal monitoring (Watmough, et al., 2019)."
+  },
+  {
+    "objectID": "week1.html#reflections",
+    "href": "week1.html#reflections",
+    "title": "1  Week 1 - Introduction to Remote Sensing",
+    "section": "1.3 Reflections",
+    "text": "1.3 Reflections\nI found this lecture really interesting – it made me realise how little I knew about remote sensing, so everything in the lecture was a learning point! I did not realise how much it is used for, and it has inspired me to look into using it for my own research. It also made me look into certain data sources I have used before which I did not realise were created in part using remote sensing data. In particular, the data from WorldPop (one of the things I really liked about Southampton!), where they estimate populations by combining land cover, night time imagery and vegetation with other data and geospatial sources to produce a random forest regression tree model – really cool! I find it interesting how remotely sensed data can be manipulated to show different things and to highlight certain features of the land surface. In future I would like to use remotely sensed data in my dissertation, especially as it involves climate change where specific environmental factors will be included."
+  },
+  {
+    "objectID": "week1.html#references",
+    "href": "week1.html#references",
+    "title": "1  Week 1 - Introduction to Remote Sensing",
+    "section": "1.4 References",
+    "text": "1.4 References\nLouw, A., Fu, J., et al., (2022) 'The role of remote sensing during a global disaster: COVID-19 pandemic as case study', Remote Sensing Applications: Society and Environment, 27\nVasile, G (2011) 'Spacebourne SAR Tomography: Application in Urban Environment', http://dx.doi.org/10.13140/RG.2.2.22514.71365\nUSGS (2023) 'What is remote sensing and what it is used for?', available at: https://www.usgs.gov/faqs/what-remote-sensing-and-what-it-used (accessed: 28.1.23)\nWatmough, G., Marcinko, C., et al. (2019) 'Socioecologically informed use of remote sensing data to predict rural household poverty', PNAS, 116, 4, pp. 1213-1218"
+  },
+  {
+    "objectID": "week3.html#summary",
+    "href": "week3.html#summary",
+    "title": "3  Week 3 - Corrections",
+    "section": "3.1 Summary",
+    "text": "3.1 Summary\nThe summary of this week’s content is presented below in the mind map.\n\n\n\n\n\n\n\n\n\nSomething I wanted to add onto this mind map for the summary is the difference between radiance and reflectance. Reflectance is the property of a material, and the proportion of radiation hitting a surface to the radiation reflecting off of it. Radiance is how much light the instrument measures and depends on illumination, the orientation and position of what is being observed and the light's path."
+  },
+  {
+    "objectID": "week3.html#applications",
+    "href": "week3.html#applications",
+    "title": "3  Week 3 - Corrections",
+    "section": "3.2 Applications",
+    "text": "3.2 Applications\nThe practical content addressed corrections using raw satellite imagery, merging images together and enhancements. This application section will focus on studies which have made use of atmospheric corrections, as I found this type of correction really fascinating! I noticed that many papers mentioning atmospheric correction in their titles focused on ocean or water imagery. For example, Vanhellemont developed a dark spectrum fitting (DSF) correction model to estimate path reflectance in order to remove the effects of sun glinting (2019). This paper contributed to correction models to improve the quality of water imagery.\n\n\n\n\n\nHouston Harbour, Texas, with and without sun glint contamination (Vanhellemont, 2019)\n\n\n\n\nAtmospheric correction is of particular importance in the ocean colour (OC) area of remote sensing, which is used to provide information on factors such as the abundance of chlorophyll as an indicator for plankton, seawater depth and seafloor reflectance (Ilori, et al., 2019).\nFrom understanding more about applications of atmospheric corrections in remote sensing, it is clear that a big challenge is to be able to make the corrections applicable to a time series and across different sensors and geographies – the same could be assumed for the other types of correction as well."
+  },
+  {
+    "objectID": "week3.html#reflection",
+    "href": "week3.html#reflection",
+    "title": "3  Week 3 - Corrections",
+    "section": "3.3 Reflection",
+    "text": "3.3 Reflection\nI have to admit – this lecture was quite difficult for me to get my head around! Remote sensing imagery is more complex than I realised, however it is interesting to understand more about how the images can be manipulated to demonstrate particular things and how they can be improved to maximise their accuracy and potential. It is clear however, that there are so many ways the images can be enhanced, corrected or adjusted, that these changes must be carried out with a specific goal in mind. From the lecture and practical content found DOS correction particularly interesting - I think it is a clever and straightforward way to account for atmospheric corrections.\nI think understanding the theory behind correction is useful, however I am uncertain if it is important to understand the specific details and science behind each type as a lot of the data comes already corrected. That being said, I think it is valuable in data science and research to not accept data as it comes and just analyse it – it is important to think about how the data was created or adjusted before it is used. It's definitely something I will consider more in the future, whether using remotely sensed data or other types of data."
+  },
+  {
+    "objectID": "week3.html#references",
+    "href": "week3.html#references",
+    "title": "3  Week 3 - Corrections",
+    "section": "3.4 References",
+    "text": "3.4 References\nIlori, C., Pahlevan, N. and Knudby, A. (2019) 'Analyzing Performances of Different Atmospheric Correction Techniques for Landsat 8: Application for Coastal Remote Sensing', Remote Sensing, 11, 4\nVanhellemont, Q. (2019) 'Adaptation of the dark spectrum fitting atmospheric correction for aquatic applications of the Landsat and Sentinel-2 archives', Remote Sensing of Environment, 225, pp. 175-192"
+  },
+  {
+    "objectID": "week8.html#summary",
+    "href": "week8.html#summary",
+    "title": "8  Week 8 - Temperature and policy",
+    "section": "8.1 Summary",
+    "text": "8.1 Summary\nFor the final summary, the content of this week is presented once again with a mind map! This one is presented slightly differently to the ones from week 1 and 3, and I think in some ways it is a big easier to follow as the information is top down rather than around the middle.\n\n\n\n\n\n\n\n\n\nThe practical made use of Landsat and MODIS data where collections could be merged to produce a mean temperature image and a time series could be plotted. It also included the workthrough of a method the BBC used to identify postcodes which were vulnerable to extreme heat using land surface temperature - in future these types of indices can be combined with other factors that influence temperature."
+  },
+  {
+    "objectID": "week8.html#applications",
+    "href": "week8.html#applications",
+    "title": "8  Week 8 - Temperature and policy",
+    "section": "8.2 Applications",
+    "text": "8.2 Applications\nI found the heat vulnerability index really interesting so this application section focuses a lot on studies on this area. It is clear that the effects of UHI are widespread across different aspects of city life. I find the effect on health and wellbeing really interesting (as it is related to my dissertation in some ways, as mentioned in the reflection!). The UHI effects can exacerbate the effects of heatwaves, leaving specific at risk populations (such as older adults, young children, those who work outdoors and those in low income areas - especially due to issues with housing standards) more exposed (EPA, 2023). A study on Harare, Zimbabwe, highlighted how urbanisation can increase the UHI effect, and focused on heat vulnerability distribution for future policy planning (Mushore, et al., 2018). They used Lansat-8 multispectral imaging and found that 40% of the city suffered from high vulnerability, particularly amongst densely populated and low-income areas.\n\n\n\n\n\nHeat vulnerability and land use and cover in Harare, Zimbabwe (Mushore, et al., 2018)\n\n\n\n\nAnother study looked at Hermosillo, Mexico, which experiences one of the highest number of heat related deaths in the country, and stated that the method used could be applied elsewhere and used by governments, particularly in regards to emergency preparedness (Navarro-Estupinan, et al., 2020).\nIt is clear that it is important in future studies to not only focus on the distribution of heat vulnerability alone, but also to look at exposures amongst different socioeconomic groups. It is also important to understand which groups and therefore individuals in the population may have a higher risk of adverse health effects from exposure to extreme heat. Further, policy must be targeted to areas which are experiencing more frequent and severe heatwaves."
+  },
+  {
+    "objectID": "week8.html#reflection",
+    "href": "week8.html#reflection",
+    "title": "8  Week 8 - Temperature and policy",
+    "section": "8.3 Reflection",
+    "text": "8.3 Reflection\nThis lecture was one of the ones I was most interested in, as it relates in part to my dissertation! My dissertation addresses climate change (including exposure to extreme heat such as heatwaves) during pregnancy on maternal health outcomes. I must admit, I had not actually thought about the heat in urban areas in the context of my dissertation as I was thinking more towards rural areas where physical access to healthcare is more of a barrier - however, I think investigating this issue within cities and understanding if the UHI effect is relevant would be really interesting.\nBased on the lecture and how the UHI is not explicitly mentioned in the SDGs, and from other modules and things I have noted, I feel that the SDGs must be adapted in future to have a sort of sub-section for cities and rural areas separately as I feel a lot of the targets are general and not necessarily adaptable to each area – in this way city specific frameworks could be focused on and UHI could be mitigated against more directly, offering a more focused global approach to it. In the future, I think it is important to try and fully understand the effects of different policies and if there are successful. As mentioned in the lecture – measures that work in one place may not work elsewhere – personally, I think this is really key in future work in this area as cities are structured entirely differently, with different building types and varying climates, amongst many other factors which could affect the UHI effect. Future frameworks could provide recommendations for specific city types or for sub-continental regions."
+  },
+  {
+    "objectID": "week8.html#references",
+    "href": "week8.html#references",
+    "title": "8  Week 8 - Temperature and policy",
+    "section": "8.4 References",
+    "text": "8.4 References\nMushore, T., Mutanga, O., et al. (2018) 'Determining extreme heat vulnerability of Harare Metropolitan City using multispectral remote sensing and socio-economic data', Journal of Spatial Science, 63, 1, pp. 173-191\nNavarro-Estupinan, J., Robles-Morua, A., et al. (2020) 'Heat risk mapping through spatial analysis of remotely-sensed data and socioeconomic vulnerability in Hermosillo, México', Urban Climate, 31\nUnited States Environmental Protection Agency (EPA) (2023) 'Heat Island Impacts', available at: https://www.epa.gov/heatislands/heat-island-impacts#_ftn6 (accessed: 20.3.23)"
   }
 ]

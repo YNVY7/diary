@@ -30,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./summary.html" rel="next">
+<link href="./week4.html" rel="next">
 <link href="./week2.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -115,12 +115,27 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./summary.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Summary</span></a>
+  <a href="./week4.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">week4.qmd</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./references.html" class="sidebar-item-text sidebar-link">References</a>
+  <a href="./week5.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">week5.qmd</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week6.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">wee6.qmd</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week7.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">week7.qmd</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week8.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">week8.qmd</span></a>
   </div>
 </li>
     </ul>
@@ -132,9 +147,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary"><span class="toc-section-number">4</span>  Summary</a></li>
-  <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications"><span class="toc-section-number">5</span>  Applications</a></li>
-  <li><a href="#reflections" id="toc-reflections" class="nav-link" data-scroll-target="#reflections"><span class="toc-section-number">6</span>  Reflections</a></li>
+  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary"><span class="toc-section-number">3.1</span>  Summary</a></li>
+  <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications"><span class="toc-section-number">3.2</span>  Applications</a></li>
+  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="toc-section-number">3.3</span>  Reflection</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="toc-section-number">3.4</span>  References</a></li>
   </ul>
 </nav>
     </div>
@@ -158,14 +174,45 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="summary" class="level1" data-number="4">
-<h1 data-number="4"><span class="header-section-number">4</span> Summary</h1>
+<section id="summary" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">3.1</span> Summary</h2>
+<p>The summary of this week’s content is presented below in the mind map.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="week3scan.jpg" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Something I wanted to add onto this mind map for the summary is the difference between radiance and reflectance. Reflectance is the property of a material, and the proportion of radiation hitting a surface to the radiation reflecting off of it. Radiance is how much light the instrument measures and depends on illumination, the orientation and position of what is being observed and the light's path.</p>
 </section>
-<section id="applications" class="level1" data-number="5">
-<h1 data-number="5"><span class="header-section-number">5</span> Applications</h1>
+<section id="applications" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="applications"><span class="header-section-number">3.2</span> Applications</h2>
+<p>The practical content addressed corrections using raw satellite imagery, merging images together and enhancements. This application section will focus on studies which have made use of atmospheric corrections, as I found this type of correction really fascinating! I noticed that many papers mentioning atmospheric correction in their titles focused on ocean or water imagery. For example, Vanhellemont developed a dark spectrum fitting (DSF) correction model to estimate path reflectance in order to remove the effects of sun glinting (2019). This paper contributed to correction models to improve the quality of water imagery.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="atcor.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<p></p><figcaption class="figure-caption">Houston Harbour, Texas, with and without sun glint contamination (Vanhellemont, 2019)</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Atmospheric correction is of particular importance in the ocean colour (OC) area of remote sensing, which is used to provide information on factors such as the abundance of chlorophyll as an indicator for plankton, seawater depth and seafloor reflectance (Ilori, <em>et al.,</em> 2019).</p>
+<p>From understanding more about applications of atmospheric corrections in remote sensing, it is clear that a big challenge is to be able to make the corrections applicable to a time series and across different sensors and geographies – the same could be assumed for the other types of correction as well.</p>
 </section>
-<section id="reflections" class="level1" data-number="6">
-<h1 data-number="6"><span class="header-section-number">6</span> Reflections</h1>
+<section id="reflection" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="reflection"><span class="header-section-number">3.3</span> Reflection</h2>
+<p>I have to admit – this lecture was quite difficult for me to get my head around! Remote sensing imagery is more complex than I realised, however it is interesting to understand more about how the images can be manipulated to demonstrate particular things and how they can be improved to maximise their accuracy and potential. It is clear however, that there are so many ways the images can be enhanced, corrected or adjusted, that these changes must be carried out with a specific goal in mind. From the lecture and practical content found DOS correction particularly interesting - I think it is a clever and straightforward way to account for atmospheric corrections.</p>
+<p>I think understanding the theory behind correction is useful, however I am uncertain if it is important to understand the specific details and science behind each type as a lot of the data comes already corrected. That being said, I think it is valuable in data science and research to not accept data as it comes and just analyse it – it is important to think about how the data was created or adjusted before it is used. It's definitely something I will consider more in the future, whether using remotely sensed data or other types of data.</p>
+</section>
+<section id="references" class="level2" data-number="3.4">
+<h2 data-number="3.4" class="anchored" data-anchor-id="references"><span class="header-section-number">3.4</span> References</h2>
+<p>Ilori, C., Pahlevan, N. and Knudby, A. (2019) 'Analyzing Performances of Different Atmospheric Correction Techniques for Landsat 8: Application for Coastal Remote Sensing', <em>Remote Sensing</em>, 11, 4</p>
+<p>Vanhellemont,&nbsp;Q. (2019) 'Adaptation of the dark spectrum fitting atmospheric correction for aquatic applications of the Landsat and Sentinel-2 archives', <em>Remote Sensing of Environment</em>, 225, pp.&nbsp;175-192</p>
 
 
 </section>
@@ -311,8 +358,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./summary.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Summary</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./week4.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">week4.qmd</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
