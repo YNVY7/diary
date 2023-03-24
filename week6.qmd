@@ -10,11 +10,11 @@ This week's lecture covered classification in remote sensing and how machine lea
 
 How is classified data used?
 
--   Classification refers to categorising the pixels in imagery in order to label them such as with land cover use.
+-   Classification refers to categorising the pixels in imagery in order to label them such as with land cover use
 
 -   There are different ways in which classification is carried out e.g. classification of urban green spaces
 
--   Other uses of it include monitoring forests and illegal logging which includes pre-processing the data and carrying out resamlping, DN to TOA conversion, quality assessment and normalisation, creating metrics, training dat and adopting a decision tree approach - legal and illegal areas of deforestation can be identified
+-   Other uses of it include monitoring forests and illegal logging which includes pre-processing the data and carrying out resampling, DN to TOA conversion, quality assessment and normalisation, creating metrics, training data and adopting a decision tree approach - legal and illegal areas of deforestation can be identified
 
 How is it classified? How can we extract land cover from EO data?
 
@@ -36,7 +36,7 @@ Classification and regression trees (CART)
 
 -   Overfitting can be counteracted by establishing a minimun number of pixels in a leaf
 
--   Weakest link pruning can be used as a bottom-up approach
+-   Weakest link pruning can also be used as a bottom-up approach
 
 Random Forests
 
@@ -56,12 +56,38 @@ Image classification
 
 -   Support Vector Machine (SVM) = linear binary classifier, maximum margin between two classes with the support vectors being points on the boundaries, uses validation to understand levels of misclassifications, hard or soft margins can be implemented
 
--   Considerations - do we want to classify pixels or objects? Which machine learning type is best to use? Which hyperparameters are necessary to implement?
+-   Considerations - do we want to classify pixels or objects? Which machine learning model is best to use? Which hyperparameters are necessary to implement?
 
 ## Applications
 
+Image classification is widely used in remote sensing, and is used in other softwares such as in QGIS! The below image was created using a machine learning model in QGIS.
+
+```{r echo=FALSE, out.width = "100%", fig.align='center', cache=FALSE, fig.cap="(Source: MAPSCAPING, 2022)"}
+knitr::include_graphics('QGIS.png')
+```
+
+Image classification is also be used in military applications, however one limitation is that there is not necessarily a lot of labelled data available (Li, *et al.*, 2017). In future however, this will undoubtedly increase and more labelled datasets will become widely available.
+
+A novel application of image classification was to detect floating plastic in coastal waterbodies, which used two supervised and two unsupervised models (including SVR and fuzzy c-means) (Basu, *et al.,* 2021). The SVR produced an accuracy of over 95%.
+
+This research can help to provide algorithms to implement policies to protect the environment and to target resources to the most affected areas.
+
+```{r echo=FALSE, out.width = "100%", fig.align='center', cache=FALSE, fig.cap="Grid with and without plastic in locations in Greece and Cyprus (Source: Basu, et al., 2021)"}
+knitr::include_graphics('plastic.png')
+```
+
+There are really exciting applications of classifying remote sensing data which can help to contribute towards policy to achieve the SDGs and improve both environmental and social issues.
+
 ## Reflection
 
-I found this lecture interesting to understand how machine learning can be used to classify remote sensing data. I had only come across machine learning for more tabular datasets such as with house price prediction so it was interesting to learn about how it is applied to different data sources. I must admit that I do not find the details of the process behind machine learning that interesting, but I do appreciate that it is important to be able to understand data applications in more depth, and it has encouraged me to look more into the science behind different machine learning algorithms and how to choose which algorithm is used. This lecture reminded me of a news story I saw which I didn't realise at the time was an example of machine learning for image classification - in France the government used remote sensing imagery to classify/identify pools in people's gardens and cross-compared this with a list of who was paying tax for their pool in order to identify who wasn't paying their tax!
+I found this lecture interesting to understand how machine learning can be used to classify remote sensing data. I had only come across machine learning for more tabular datasets such as with house price prediction, so it was interesting to learn about how it is applied to different data sources. I must admit that I do not find the details of the process behind machine learning that interesting, but I do appreciate that it is important to be able to understand data applications in more depth, and it has encouraged me to look more into the science behind different machine learning algorithms and how to choose which algorithm is used. This lecture reminded me of a news story I saw which I didn't realise at the time was an example of machine learning for image classification - in France the government used remote sensing imagery to classify/identify pools in people's gardens and cross-compared this with a list of who was paying tax for their pool in order to identify who wasn't paying their tax or who didn't have their pool registered with the tax office!
 
 ## References
+
+Basu, B., Sannigrahu, S., *et al.* (2021) 'Development of Novel Classification Algorithms for Detection of Floating Plastic Debris in Coastal Waterbodies Using Multispectral Sentinel-2 Remote Sensing Imagery'**,** Remote Sensing, 13, 8
+
+Li, Y., Zhang, H., *et al.* (2017) 'Deep learning for remote sensing image classification: A survey', *WIREs Data Mining and Knowledge Discovery*, 8, 6
+
+MAPSCAPING (2022) 'Machine Learning in QGIS for Satellite Image Classification', available at: https://mapscaping.com/machine-learning-in-qgis-for-satellite-image-classification/ (accessed: 16.3.23)
+
+Seyam, M., Hague, R. and Rahman, M. (2023) 'Identifying the land use land cover (LULC) changes using remote sensing and GIS approach: A case study at Bhaluka in Mymensingh, Bangladesh', *Environmental Engineering*, 7
