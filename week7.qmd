@@ -58,10 +58,37 @@ Spatial cross-validation
 
 ## Applications
 
+This application section will focus on subpixel and object based image analysis which have been mentioned in literature.
+
+Sub-pixel classification has been used to identify crop types in Bulgaria using a time series of NDVI data (Dimitrov, *et al.,* 2019). Two classification models, SVR and artifical neural network (ANN) were used, which can contribute to understanding seasonal crop growth and change, and be integrated within other agricultural applications.
+
+```{r echo=FALSE, out.width = "100%", fig.align='center', cache=FALSE, fig.cap="Estimated area fraction for winter cereals in Bulgaria using ANN (Source: Dimitrov, et al., 2019)"}
+knitr::include_graphics('w71.png')
+```
+
+Another study compared pixel, sub-pixel and object based image analysis for landslide detection in Lesser Himalaya, Pakistan, which is a seismically active area (Saba, *et al.*, 2023). The highest level of accuracy was from the object based image analysis, although it was mentioned that the method used may not be applicable to different terrains. The image below demonstrates the output for pixel, subpixel and object-based classification.
+
+```{r echo=FALSE, out.width = "100%", fig.align='center', cache=FALSE, fig.cap="(Source: Saba, et al., 2023)"}
+knitr::include_graphics('pixel.png')
+```
+
+This is important for providing timely emergency responses to landslide disasters triggered by rainfall or earthquakes.
+
+There are calls for a benchmark in the future for object detection and sub-pixel analysis in remote sensing imagery, introducting hierarchy detection in the models and proposing new evaluation metrics (Sun, *et al.,* 2022). Perhaps this is indicative of a need for more established and standardised models and algorithms which can be applied across different datasets and applications.
+
 ## Reflection
 
 This lecture was very interesting as it relates to one of my other assignments for a core module on the geography master's course where we have to perform a machine learning model to classify any outdoor scenes images, and it could use remote sensing imagery! The lecture gave me more insight into what to consider especially during accuracy assessments, and I can make use of GEE as well for it. I find object classification most interesting in the area of classification so I may choose a topic where a specific object is identified or not in an image. I am interested to see how sub-pixel classification and object classification will advance in the future. I did find the content difficult to fully understand, but once applied to specific examples it made more sense as I find it easier to understand things within applied contexts or when I apply the techniques myself.
 
 ## References
 
+Dimitrov, P., Dong, Q., *et al.* (2019) 'Sub-Pixel Crop Type Classification Using PROBA-V 100 m NDVI Time Series and Reference Data from Sentinel-2 Classifications', *Remote Sensing*, 11
+
+Saba, S., Ali, M., *et al.* (2023) 'Comparison of pixel, sub-pixel and object-based image analysis techniques for co-seismic landslides detection in seismically active area in Lesser Himalaya, Pakistan', *Natural Hazards,* 115, pp. 2383-2398
+
 Sirsat, M. (2019) 'What is Confusion Matrix and Advanced Classification Metrics?', available at: https://manisha-sirsat.blogspot.com/2019/04/confusion-matrix.html (accessed: 18.3.23)
+
+Sun, X., Wang, P. and Yan, Z. (2022) 'FAIR1M: A benchmark dataset for fine-grained object recognition in
+high-resolution remote sensing imagery', *ISPRS Journal of Photogrammetry and Remote Sensing*, 184, pp. 116-130
+
+

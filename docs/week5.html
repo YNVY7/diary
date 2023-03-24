@@ -150,7 +150,7 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary"><span class="toc-section-number">5.1</span>  Summary</a></li>
   <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications"><span class="toc-section-number">5.2</span>  Applications</a></li>
-  <li><a href="#reflections" id="toc-reflections" class="nav-link" data-scroll-target="#reflections"><span class="toc-section-number">5.3</span>  Reflections</a></li>
+  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="toc-section-number">5.3</span>  Reflection</a></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="toc-section-number">5.4</span>  References</a></li>
   </ul>
 </nav>
@@ -183,17 +183,18 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="summary" class="level2" data-number="5.1">
 <h2 data-number="5.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">5.1</span> Summary</h2>
+<p>This section provides a quick general overview of the lecture and the key details and points about Google Earth Engine (GEE), mostly provided in bullet points to refine the most important things to remember when understanding what GEE is and how it is used.</p>
 <p>What is GEE?</p>
 <ul>
 <li><p>A platform which provides a catalog of satellite imagery and geospatial data for analysis.</p></li>
 <li><p>Provides the ability to use large datasets at a very fast pace, applying self-written code.</p></li>
-<li><p>Uses Javascript</p></li>
-<li><p>Code runs on both the client and server side</p></li>
+<li><p>Uses JavaScript.</p></li>
+<li><p>Code runs on both the client and server side.</p></li>
 </ul>
 <p>Why is it used?</p>
 <ul>
-<li><p>Complete image does not need to be loaded many times when looping</p></li>
-<li><p>Public datasets, openly available use</p></li>
+<li><p>Complete image does not need to be loaded many times when looping.</p></li>
+<li><p>Public datasets, openly available use.</p></li>
 </ul>
 <p>Usage details</p>
 <ul>
@@ -209,14 +210,14 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="GEEinterface.png" class="img-fluid figure-img" style="width:100.0%"></p>
-<p></p><figcaption class="figure-caption">Google Earth Engine Code Editor interface (Source: Google Earth Engine</figcaption><p></p>
+<p></p><figcaption class="figure-caption">Google Earth Engine Code Editor interface (Source: Google Earth Engine)</figcaption><p></p>
 </figure>
 </div>
 </div>
 </div>
 <p>What can be done with GEE?</p>
 <ul>
-<li><p>Spatial operations such as joins, zonal statistics ( reduceRegion() ) , filtering</p></li>
+<li><p>Spatial operations such as joins, zonal statistics ( reduceRegion() ), filtering</p></li>
 <li><p>Reducing imagery by region or neighbourhood</p></li>
 <li><p>Machine learning, classification, deep learning</p></li>
 <li><p>Imagery is accessible from multiple sensors</p></li>
@@ -227,12 +228,48 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="applications" class="level2" data-number="5.2">
 <h2 data-number="5.2" class="anchored" data-anchor-id="applications"><span class="header-section-number">5.2</span> Applications</h2>
+<p>GEE is now widely used for analysis using remote sensing data to contribute to research in areas such as disease outbreaks and resource management. The mentioning of GEE in publications has grown significantly over the last 3 years, in which keywords related to it commonly mentioned water, time series, cloud cover, model, random forest, and many others (Zhao, et al., 2021). Common applications of GEE apply to and include (Amani, et al., 2020):</p>
+<ul>
+<li><p>Natural disasters e.g.&nbsp;floods, damage assessments</p></li>
+<li><p>Agriculture e.g.&nbsp;food security, crop modelling</p></li>
+<li><p>Land cover e.g.&nbsp;change detection, classification</p></li>
+<li><p>Climate e.g.&nbsp;climate change, emissions from fires, pollution</p></li>
+<li><p>Urban e.g.&nbsp;Urban Heat Island, urban growth</p></li>
+<li><p>And many, many more!!</p></li>
+</ul>
+<p>A specific example of a GEE application is its use in fluvial geomorphology and mapping change in river channels through indicators such as sediment and vegetation (Boothroyd, et al., 2020). GEE has allowed these kinds of fluvial studies to be carried out over a wider space and time range, and has allowed geomorphologists to apply algorithms on unprecedented amounts of data.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="rivers.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<p></p><figcaption class="figure-caption">Change in active channel centerline in the Cagayan River, Philippines (Source: Boothroyd, et al., 2020)</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>There are very clear advantages of GEE, and some limitations too, which are summarised in the table below from a paper on GEE applications. It is quite a detailed table but it highlights some very interesting points about advantages and limitations, namely in the data and functions sections.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="GEEadvlim.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<p></p><figcaption class="figure-caption">(Source: Amani, et al., 2020)</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>There is no doubt that GEE will continue to be used in the future, especially as it is the platform that is creating change in the remote sensing industry and improving the ability of researchers and developers to be able to use very large datasets.</p>
 </section>
-<section id="reflections" class="level2" data-number="5.3">
-<h2 data-number="5.3" class="anchored" data-anchor-id="reflections"><span class="header-section-number">5.3</span> Reflections</h2>
+<section id="reflection" class="level2" data-number="5.3">
+<h2 data-number="5.3" class="anchored" data-anchor-id="reflection"><span class="header-section-number">5.3</span> Reflection</h2>
+<p>Google Earth Engine is a really interesting tool for analysis. It amazes me how much technology and data analysis has advanced - being able to use so much data so quickly is really useful especially when considering how much longer it takes in SNAP and R for much smaller volumes of data. I was curious about why GEE uses JavaScript compared to other coding languages - it seems it is a coding language often used in web development and can be executed easily in the browser for data visualisation. I have only used Python and R before so it is interesting to be using and learning about a different coding language, so maybe I will look into learning more of it in the future! The only thing I note about GEE which may limit its usage is that coding knowledge is required to use it., although I believe the coding language needed for using it can be learnt fairly easily.</p>
 </section>
 <section id="references" class="level2" data-number="5.4">
 <h2 data-number="5.4" class="anchored" data-anchor-id="references"><span class="header-section-number">5.4</span> References</h2>
+<p>Amani, M., Ghorbanian, A., et al.&nbsp;(2020) ‘Google Earth Engine Cloud Computing Platform for Remote Sensing Big Data Applications: A Comprehensive Review’, IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 13</p>
+<p>Boothroyd, R., Williams, R., et al.&nbsp;(2020) ‘Applications of Google Earth Engine in fluvialgeomorphology for detecting river channel change’, WIREs Water, 8, 1</p>
+<p>Zhao, Q., Yu, L., et al.&nbsp;(2021) ‘Progress and Trends in the Application of Google Earth and Google Earth Engine’, Remote Sensing, 13</p>
 
 
 </section>
