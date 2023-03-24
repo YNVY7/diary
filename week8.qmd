@@ -6,7 +6,7 @@ date: "2023-03-23"
 
 ## Summary
 
-For the final summary, the content of this week is presented once again with a mind map! This one is presented slightly differently to the ones from week 1 and 3, and I think in some ways it is a big easier to follow as the information is top down rather than around the middle.
+For the final summary of this learning diary, the content of this week is presented once again with a mind map! This one is presented slightly differently to the ones from week 1 and 3, and I think in some ways it is a big easier to follow as the information is top down rather than around the middle.
 
 ```{r echo=FALSE, out.width = "100%", fig.align='center', cache=FALSE}
 knitr::include_graphics('week8scan.jpg')
