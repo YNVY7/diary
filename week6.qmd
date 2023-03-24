@@ -62,4 +62,6 @@ Image classification
 
 ## Reflection
 
+I found this lecture interesting to understand how machine learning can be used to classify remote sensing data. I had only come across machine learning for more tabular datasets such as with house price prediction so it was interesting to learn about how it is applied to different data sources. I must admit that I do not find the details of the process behind machine learning that interesting, but I do appreciate that it is important to be able to understand data applications in more depth, and it has encouraged me to look more into the science behind different machine learning algorithms and how to choose which algorithm is used. This lecture reminded me of a news story I saw which I didn't realise at the time was an example of machine learning for image classification - in France the government used remote sensing imagery to classify/identify pools in people's gardens and cross-compared this with a list of who was paying tax for their pool in order to identify who wasn't paying their tax!
+
 ## References

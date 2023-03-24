@@ -35,8 +35,8 @@ Based on the lecture and how the UHI is not explicitly mentioned in the SDGs, an
 
 ## References
 
-Mushore, T., Mutanga, O., *et al.* (2018) \'Determining extreme heat vulnerability of Harare Metropolitan City using multispectral remote sensing and socio-economic data\', *Journal of Spatial Science*, 63, 1, pp. 173-191
+Mushore, T., Mutanga, O., *et al.* (2018) 'Determining extreme heat vulnerability of Harare Metropolitan City using multispectral remote sensing and socio-economic data', *Journal of Spatial Science*, 63, 1, pp. 173-191
 
-Navarro-Estupinan, J., Robles-Morua, A., *et al.* (2020) \'Heat risk mapping through spatial analysis of remotely-sensed data and socioeconomic vulnerability in Hermosillo, México\', *Urban Climate*, 31
+Navarro-Estupinan, J., Robles-Morua, A., *et al.* (2020) 'Heat risk mapping through spatial analysis of remotely-sensed data and socioeconomic vulnerability in Hermosillo, México', *Urban Climate*, 31
 
-United States Environmental Protection Agency (EPA) (2023) \'Heat Island Impacts\', available at: <https://www.epa.gov/heatislands/heat-island-impacts#_ftn6> (accessed: 20.3.23)
+United States Environmental Protection Agency (EPA) (2023) 'Heat Island Impacts', available at: <https://www.epa.gov/heatislands/heat-island-impacts#_ftn6> (accessed: 20.3.23)

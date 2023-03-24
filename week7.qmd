@@ -6,8 +6,62 @@ date: "2023-03-23"
 
 ## Summary
 
+This summary provides an overview of the continuation of learning about classification covering sub-pixel classification, accuracy assessment and cross-validation.
+
+Some data comes pre-classified.
+
+-   Dynamic World - estimates things like tree cover and built up areas using almost real-time Sentinel-2 data and a semi-supervised approach. It uses a Convolutional Neural Networks (CNN), a form of deep learning, and accuracy is assessed using a confusion matrix.
+
+Object based image analysis (OBIA)
+
+-   Considers similarity or difference of the cells = superpixels - k=number of super pixels
+
+-   Simple Linear Iterative Clustering (SLIC) - distance from the point to the centre of the pixel, homogeneity of colours
+
+-   Measures compactness - balance between distance and colour
+
+-   Takes the average values per object and classifies them
+
+Sub-pixel analysis
+
+-   Pixel with a range of land covers within it - classify this as one land cover or several?
+
+-   Spectral Mixture Analysis (SMA)  - proportion of landcover per pixel
+
+Accuracy assessment
+
+-   How accurate is the model for assigning classes on unseen data
+
+-   Confusion matrix displays different measures - correct prediction of a class, correct prediction of a negative class, predicting a positive but it is negative, predicting a negative but it is positive
+
+```{r echo=FALSE, out.width = "100%", fig.align='center', cache=FALSE, fig.cap="Confusion matrix (Source: Sirsat, 2019)"}
+knitr::include_graphics('confusion.png')
+```
+
+-   Omission and commission errors of landcover from the correct class
+
+-   Kappa - how closely the classifications match the labeled data, accuracy compared to the results by chance
+
+-   Test data for accuracy - consider a sampling strategy such as random sampling or stratified sampling to produce an error matrix
+
+-   Cross-validation - train models on subsets of the input data - can help to identify issues of overfitting and improve unseen data prediction
+
+-   Leave one out cross-validation - training data except 1 used and repeated throughout the dataset
+
+Spatial cross-validation
+
+-   Do we need to consider spatial autocorrelation? There may be spatial autocorrelation between training and testing datasets - especially if they are too close together
+
+-   Migitate this by spatially partitioning the folded data to stop the training and testing dataset from being near to each other
+
+-   Without considering spatial autocorrelation the model would be too accurate and perform badly on unseen data
+
 ## Applications
 
 ## Reflection
 
+This lecture was very interesting as it relates to one of my other assignments for a core module on the geography master's course where we have to perform a machine learning model to classify any outdoor scenes images, and it could use remote sensing imagery! The lecture gave me more insight into what to consider especially during accuracy assessments, and I can make use of GEE as well for it. I find object classification most interesting in the area of classification so I may choose a topic where a specific object is identified or not in an image. I am interested to see how sub-pixel classification and object classification will advance in the future. I did find the content difficult to fully understand, but once applied to specific examples it made more sense as I find it easier to understand things within applied contexts or when I apply the techniques myself.
+
 ## References
+
+Sirsat, M. (2019) 'What is Confusion Matrix and Advanced Classification Metrics?', available at: https://manisha-sirsat.blogspot.com/2019/04/confusion-matrix.html (accessed: 18.3.23)
