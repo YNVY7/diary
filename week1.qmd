@@ -28,10 +28,10 @@ I found this lecture really interesting -- it made me realise how little I knew 
 
 ## References
 
-Louw, A., Fu, J., *et al.,* (2022) \'The role of remote sensing during a global disaster: COVID-19 pandemic as case study\', *Remote Sensing Applications: Society and Environment*, 27
+Louw, A., Fu, J., *et al.,* (2022) 'The role of remote sensing during a global disaster: COVID-19 pandemic as case study', *Remote Sensing Applications: Society and Environment*, 27
 
-Vasile, G (2011) \'Spacebourne SAR Tomography: Application in Urban Environment\', <http://dx.doi.org/10.13140/RG.2.2.22514.71365>
+Vasile, G (2011) 'Spacebourne SAR Tomography: Application in Urban Environment', <http://dx.doi.org/10.13140/RG.2.2.22514.71365>
 
-USGS (2023) \'What is remote sensing and what it is used for?\', available at: <https://www.usgs.gov/faqs/what-remote-sensing-and-what-it-used> (accessed: 28.1.23)
+USGS (2023) 'What is remote sensing and what it is used for?', available at: <https://www.usgs.gov/faqs/what-remote-sensing-and-what-it-used> (accessed: 28.1.23)
 
-Watmough, G., Marcinko, C., *et al.* (2019) \'Socioecologically informed use of remote sensing data to predict rural household poverty\', *PNAS*, 116, 4, pp. 1213-1218
+Watmough, G., Marcinko, C., *et al.* (2019) 'Socioecologically informed use of remote sensing data to predict rural household poverty', *PNAS*, 116, 4, pp. 1213-1218

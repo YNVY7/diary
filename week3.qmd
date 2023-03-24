@@ -11,7 +11,7 @@ knitr::include_graphics('week3scan.jpg')
 
 ```
 
-Something I wanted to add onto this mind map for the summary is the difference between radiance and reflectance. Reflectance is the property of a material, and the proportion of radiation hitting a surface to the radiation reflecting off of it. Radiance is how much light the instrument measures and depends on illumination, the orientation and position of what is being observed and the light\'s path.
+Something I wanted to add onto this mind map for the summary is the difference between radiance and reflectance. Reflectance is the property of a material, and the proportion of radiation hitting a surface to the radiation reflecting off of it. Radiance is how much light the instrument measures and depends on illumination, the orientation and position of what is being observed and the light's path.
 
 ## Applications
 
@@ -30,10 +30,10 @@ From understanding more about applications of atmospheric corrections in remote 
 
 I have to admit -- this lecture was quite difficult for me to get my head around! Remote sensing imagery is more complex than I realised, however it is interesting to understand more about how the images can be manipulated to demonstrate particular things and how they can be improved to maximise their accuracy and potential. It is clear however, that there are so many ways the images can be enhanced, corrected or adjusted, that these changes must be carried out with a specific goal in mind. From the lecture and practical content found DOS correction particularly interesting - I think it is a clever and straightforward way to account for atmospheric corrections.
 
-I think understanding the theory behind correction is useful, however I am uncertain if it is important to understand the specific details and science behind each type as a lot of the data comes already corrected. That being said, I think it is valuable in data science and research to not accept data as it comes and just analyse it -- it is important to think about how the data was created or adjusted before it is used. It\'s definitely something I will consider more in the future, whether using remotely sensed data or other types of data.
+I think understanding the theory behind correction is useful, however I am uncertain if it is important to understand the specific details and science behind each type as a lot of the data comes already corrected. That being said, I think it is valuable in data science and research to not accept data as it comes and just analyse it -- it is important to think about how the data was created or adjusted before it is used. It's definitely something I will consider more in the future, whether using remotely sensed data or other types of data.
 
 ## References
 
-Ilori, C., Pahlevan, N. and Knudby, A. (2019) \'Analyzing Performances of Different Atmospheric Correction Techniques for Landsat 8: Application for Coastal Remote Sensing\', *Remote Sensing*, 11, 4
+Ilori, C., Pahlevan, N. and Knudby, A. (2019) 'Analyzing Performances of Different Atmospheric Correction Techniques for Landsat 8: Application for Coastal Remote Sensing', *Remote Sensing*, 11, 4
 
-Vanhellemont, Q. (2019) \'Adaptation of the dark spectrum fitting atmospheric correction for aquatic applications of the Landsat and Sentinel-2 archives\', *Remote Sensing of Environment*, 225, pp. 175-192
+Vanhellemont, Q. (2019) 'Adaptation of the dark spectrum fitting atmospheric correction for aquatic applications of the Landsat and Sentinel-2 archives', *Remote Sensing of Environment*, 225, pp. 175-192

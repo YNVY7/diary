@@ -102,7 +102,7 @@ Researching this policy area in Kinshasa has been a big learning point for me in
 
 Adhikari, S., Koirala, P. et al. (2022) 'Planning for Sustainable Cities in Africa: Experiences, Challenges and Prospects of Monitoring Geospatial Indicators', Remote Sensing, 14
 
-Guerin, T., Loury, M., *et al.,* (2013) \'Planification Urbaine: Kinshasa, racines et perspectives\', Groupe Huit, Kinshasa
+Guerin, T., Loury, M., *et al.,* (2013) 'Planification Urbaine: Kinshasa, racines et perspectives', Groupe Huit, Kinshasa
 
 Mosnier, A., Mant, R., et al. (2016) 'Modelling Land Use Changes in the Democratic Republic of the Congo 2000--2030', A report by the REDD-PAC project
 
@@ -114,4 +114,4 @@ United National Environmental Programme (2017) 'UNEP Study Confirms DR Congo's P
 
 World Bank (2021a) 'World Bank Approves \$500 Million to Support Urban Resilience and Expand Access to Services and Opportunities in Kinshasa, DRC', available at: https://www.worldbank.org/en/news/press-release/2021/03/30/world-bank-approves-500-million-to-support-urban-resilience-and-expand-access-to-services-and-opportunities-in-kinshasa (accessed: 10.3.23)
 
-World Bank (2021b) 'Why Kinshasa Could Be in the Vanguard of Megacities\' Climate Resilience', available at: https://www.worldbank.org/en/news/feature/2021/08/19/why-kinshasa-could-be-in-the-vanguard-of-megacities-climate-resilience (accessed: 10.3.23)
+World Bank (2021b) 'Why Kinshasa Could Be in the Vanguard of Megacities' Climate Resilience', available at: https://www.worldbank.org/en/news/feature/2021/08/19/why-kinshasa-could-be-in-the-vanguard-of-megacities-climate-resilience (accessed: 10.3.23)

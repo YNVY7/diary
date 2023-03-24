@@ -6,6 +6,58 @@ date: "2023-03-23"
 
 ## Summary
 
+This week's lecture covered classification in remote sensing and how machine learning can be used to implement this. This summary provides an overview of the lecture, classification, and the types of machine learning which were covered.
+
+How is classified data used?
+
+-   Classification refers to categorising the pixels in imagery in order to label them such as with land cover use.
+
+-   There are different ways in which classification is carried out e.g. classification of urban green spaces
+
+-   Other uses of it include monitoring forests and illegal logging which includes pre-processing the data and carrying out resamlping, DN to TOA conversion, quality assessment and normalisation, creating metrics, training dat and adopting a decision tree approach - legal and illegal areas of deforestation can be identified
+
+How is it classified? How can we extract land cover from EO data?
+
+-   Experts system = require human knowledge - how can a computer replicate this?
+
+-   Machine learning - classification and regression trees (CART)
+
+-   Classification trees = classify data into 2+ categories
+
+-   Regression trees = predict continuous dependent variables - subset the data into smaller chunks
+
+Classification and regression trees (CART)
+
+-   Option with the lowest impurity goes to the top of the tree and becomes the root (Gini impurity)
+
+-   Regression trees - where should the breaks in data be? - we can impose a minimum number of observations before splitting the data again using the sum of squared residuals
+
+-   A leaf with just one pixel may cause overfitting of data and poor performance of the model on unseen data
+
+-   Overfitting can be counteracted by establishing a minimun number of pixels in a leaf
+
+-   Weakest link pruning can be used as a bottom-up approach
+
+Random Forests
+
+-   Many classification decision trees
+
+-   Decision trees created from a random number of variables and a random subset
+
+-   Bootstrapping = re-sampling by replacement data. The data not included in this (out of the bag, OOB) is tested and the tree with the most votes wins
+
+Image classification
+
+-   Supervised = classifier learns patterns to place labels onto new data
+
+-   Unsupervised = identify classes which are not previously known, computer clustering (k-means) and labelling
+
+-   Maximum likelihood = decision rule classifier, assigns the most probable land cover type and can use a threshold - prior probability information is required
+
+-   Support Vector Machine (SVM) = linear binary classifier, maximum margin between two classes with the support vectors being points on the boundaries, uses validation to understand levels of misclassifications, hard or soft margins can be implemented
+
+-   Considerations - do we want to classify pixels or objects? Which machine learning type is best to use? Which hyperparameters are necessary to implement?
+
 ## Applications
 
 ## Reflection
