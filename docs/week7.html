@@ -183,15 +183,90 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="summary" class="level2" data-number="7.1">
 <h2 data-number="7.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">7.1</span> Summary</h2>
+<p>This summary provides an overview of the continuation of learning about classification covering sub-pixel classification, accuracy assessment and cross-validation.</p>
+<p>Some data comes pre-classified.</p>
+<ul>
+<li>Dynamic World - estimates things like tree cover and built up areas using almost real-time Sentinel-2 data and a semi-supervised approach. It uses a Convolutional Neural Networks (CNN), a form of deep learning, and accuracy is assessed using a confusion matrix.</li>
+</ul>
+<p>Object based image analysis (OBIA)</p>
+<ul>
+<li><p>Considers similarity or difference of the cells = superpixels - k=number of super pixels</p></li>
+<li><p>Simple Linear Iterative Clustering (SLIC) - distance from the point to the centre of the pixel, homogeneity of colours</p></li>
+<li><p>Measures compactness - balance between distance and colour</p></li>
+<li><p>Takes the average values per object and classifies them</p></li>
+</ul>
+<p>Sub-pixel analysis</p>
+<ul>
+<li><p>Pixel with a range of land covers within it - classify this as one land cover or several?</p></li>
+<li><p>Spectral Mixture Analysis (SMA) - proportion of landcover per pixel</p></li>
+</ul>
+<p>Accuracy assessment</p>
+<ul>
+<li><p>How accurate is the model for assigning classes on unseen data</p></li>
+<li><p>Confusion matrix displays different measures - correct prediction of a class, correct prediction of a negative class, predicting a positive but it is negative, predicting a negative but it is positive</p></li>
+</ul>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="confusion.jpg" class="img-fluid figure-img" style="width:100.0%"></p>
+<p></p><figcaption class="figure-caption">Confusion matrix (Source: Sirsat, 2019)</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<ul>
+<li><p>Omission and commission errors of landcover from the correct class</p></li>
+<li><p>Kappa - how closely the classifications match the labeled data, accuracy compared to the results by chance</p></li>
+<li><p>Test data for accuracy - consider a sampling strategy such as random sampling or stratified sampling to produce an error matrix</p></li>
+<li><p>Cross-validation - train models on subsets of the input data - can help to identify issues of overfitting and improve unseen data prediction</p></li>
+<li><p>Leave one out cross-validation - training data except 1 used and repeated throughout the dataset</p></li>
+</ul>
+<p>Spatial cross-validation</p>
+<ul>
+<li><p>Do we need to consider spatial autocorrelation? There may be spatial autocorrelation between training and testing datasets - especially if they are too close together</p></li>
+<li><p>Migitate this by spatially partitioning the folded data to stop the training and testing dataset from being near to each other</p></li>
+<li><p>Without considering spatial autocorrelation the model would be too accurate and perform badly on unseen data</p></li>
+</ul>
 </section>
 <section id="applications" class="level2" data-number="7.2">
 <h2 data-number="7.2" class="anchored" data-anchor-id="applications"><span class="header-section-number">7.2</span> Applications</h2>
+<p>This application section will focus on subpixel and object based image analysis which have been mentioned in literature.</p>
+<p>Sub-pixel classification has been used to identify crop types in Bulgaria using a time series of NDVI data (Dimitrov, <em>et al.,</em> 2019). Two classification models, SVR and artifical neural network (ANN) were used, which can contribute to understanding seasonal crop growth and change, and be integrated within other agricultural applications.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="w71.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<p></p><figcaption class="figure-caption">Estimated area fraction for winter cereals in Bulgaria using ANN (Source: Dimitrov, et al., 2019)</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Another study compared pixel, sub-pixel and object based image analysis for landslide detection in Lesser Himalaya, Pakistan, which is a seismically active area (Saba, <em>et al.</em>, 2023). The highest level of accuracy was from the object based image analysis, although it was mentioned that the method used may not be applicable to different terrains. The image below demonstrates the output for pixel, subpixel and object-based classification (Sorry for the image quality issue! The main takeaway from the image is that there are clear differences between each classification).</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="pixel.png" class="img-fluid figure-img" style="width:70.0%"></p>
+<p></p><figcaption class="figure-caption">(Source: Saba, et al., 2023)</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>This is important for providing timely emergency responses to landslide disasters triggered by rainfall or earthquakes.</p>
+<p>There are calls for a benchmark in the future for object detection and sub-pixel analysis in remote sensing imagery, introducting hierarchy detection in the models and proposing new evaluation metrics (Sun, <em>et al.,</em> 2022). Perhaps this is indicative of a need for more established and standardised models and algorithms which can be applied across different datasets and applications.</p>
 </section>
 <section id="reflection" class="level2" data-number="7.3">
 <h2 data-number="7.3" class="anchored" data-anchor-id="reflection"><span class="header-section-number">7.3</span> Reflection</h2>
+<p>This lecture was very interesting as it relates to one of my other assignments for a core module on the geography master’s course where we have to perform a machine learning model to classify any outdoor scenes images, and it could use remote sensing imagery! The lecture gave me more insight into what to consider especially during accuracy assessments, and I can make use of GEE as well for it. I find object classification most interesting in the area of classification so I may choose a topic where a specific object is identified or not in an image. I am interested to see how sub-pixel classification and object classification will advance in the future. I did find the content difficult to fully understand, but once applied to specific examples it made more sense as I find it easier to understand things within applied contexts or when I apply the techniques myself.</p>
 </section>
 <section id="references" class="level2" data-number="7.4">
 <h2 data-number="7.4" class="anchored" data-anchor-id="references"><span class="header-section-number">7.4</span> References</h2>
+<p>Dimitrov, P., Dong, Q., <em>et al.</em> (2019) ‘Sub-Pixel Crop Type Classification Using PROBA-V 100 m NDVI Time Series and Reference Data from Sentinel-2 Classifications’, <em>Remote Sensing</em>, 11</p>
+<p>Saba, S., Ali, M., <em>et al.</em> (2023) ‘Comparison of pixel, sub-pixel and object-based image analysis techniques for co-seismic landslides detection in seismically active area in Lesser Himalaya, Pakistan’, <em>Natural Hazards,</em> 115, pp.&nbsp;2383-2398</p>
+<p>Sirsat, M. (2019) ‘What is Confusion Matrix and Advanced Classification Metrics?’, available at: https://manisha-sirsat.blogspot.com/2019/04/confusion-matrix.html (accessed: 18.3.23)</p>
+<p>Sun, X., Wang, P. and Yan, Z. (2022) ‘FAIR1M: A benchmark dataset for fine-grained object recognition in high-resolution remote sensing imagery’, <em>ISPRS Journal of Photogrammetry and Remote Sensing</em>, 184, pp.&nbsp;116-130</p>
 
 
 </section>

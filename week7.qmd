@@ -35,7 +35,7 @@ Accuracy assessment
 -   Confusion matrix displays different measures - correct prediction of a class, correct prediction of a negative class, predicting a positive but it is negative, predicting a negative but it is positive
 
 ```{r echo=FALSE, out.width = "100%", fig.align='center', cache=FALSE, fig.cap="Confusion matrix (Source: Sirsat, 2019)"}
-knitr::include_graphics('confusion.png')
+knitr::include_graphics('confusion.jpg')
 ```
 
 -   Omission and commission errors of landcover from the correct class
@@ -66,9 +66,9 @@ Sub-pixel classification has been used to identify crop types in Bulgaria using 
 knitr::include_graphics('w71.png')
 ```
 
-Another study compared pixel, sub-pixel and object based image analysis for landslide detection in Lesser Himalaya, Pakistan, which is a seismically active area (Saba, *et al.*, 2023). The highest level of accuracy was from the object based image analysis, although it was mentioned that the method used may not be applicable to different terrains. The image below demonstrates the output for pixel, subpixel and object-based classification.
+Another study compared pixel, sub-pixel and object based image analysis for landslide detection in Lesser Himalaya, Pakistan, which is a seismically active area (Saba, *et al.*, 2023). The highest level of accuracy was from the object based image analysis, although it was mentioned that the method used may not be applicable to different terrains. The image below demonstrates the output for pixel, subpixel and object-based classification (Sorry for the image quality issue! The main takeaway from the image is that there are clear differences between each classification).
 
-```{r echo=FALSE, out.width = "100%", fig.align='center', cache=FALSE, fig.cap="(Source: Saba, et al., 2023)"}
+```{r echo=FALSE, out.width = "70%", fig.align='center', cache=FALSE, fig.cap="(Source: Saba, et al., 2023)"}
 knitr::include_graphics('pixel.png')
 ```
 
