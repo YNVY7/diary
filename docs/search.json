@@ -241,29 +241,29 @@
     "objectID": "week4.html#summary",
     "href": "week4.html#summary",
     "title": "4  Week 4 - Policy",
-    "section": "4.1 Summary",
-    "text": "4.1 Summary"
+    "section": "5.1 Summary",
+    "text": "5.1 Summary\nMy city of choice is Kinshasa, Democratic Republic of Congo. Kinshasa is experiencing x due to x, which has negative future implications or risks of x, want more sustainable development.\nKinshasa is experiencing very high levels of population growth. Its population of 15 million is projected to increase to 27 million by 2035.\nHuge effects of this - for example where population pressures are high in the city service quality is very low, deficient water services\nEspecially an issue as the effects of climate change worsen, want to be more resilient. More rainfall for example is affecting crop yield. Increases in disasters and adverse weather is causing GDP loss.\nThe image below depicts the Kinshasa and Brazzaville, Republic of Congo, area, which are neighbouring capital cities located along the banks of the Congo River. The Kinshasa metropolitan area is shown by the yellow box.\n\n\n\n\n\n(Source: NASA)\n\n\n\n\nThe city’s urban area has grown significantly in the last few decades which can be seen clearly in the image below.\n\n\n\n\n\nChinage in Kinshasa’s urban area over time (Source: Guerin, et al., 2013)\n\n\n\n\nThe DRC’s economy relies heavily on agriculture for both the population’s income and food source. This is being jeopardized by urban growth and changing land use. Forest degradation is also becoming more and more of an issue. Land is being degraded further and pollution is increasing during due mining, especially cobalt mining. Decreasing soil quality means that many of rural areas are being abandoned for the city which is further contributing to unsustainable urban growth and land pressure.\nThis is representative of wider issues in cities across the world, particularly in sub-Saharan Africa where population growth rates and urbanisation are high. Better tools are needed to understand the effects of these factors on issues such as food insecurity and land degradation. Additionally, more analysis is needed to understand where unsustainable urban development is occurring in order to implement policies for sustainable urban development in the future to protect the environment and population.\nThis problem and addressing it directly relates to a few of the SDG targets (UN, 2023):\n\n11.3 - inclusive urbanisation and sustainability in cities, of which a sub-target, 11.3.1, addresses land consumption to population growth as an indicator\n13.1 - resilience and adaptive capacity to climate-related hazards and natural disasters\n15.3 - restore degraded land, which includes indicator 15.3.1 - land degraded/total land area"
   },
   {
     "objectID": "week4.html#applications",
     "href": "week4.html#applications",
     "title": "4  Week 4 - Policy",
-    "section": "4.2 Applications",
-    "text": "4.2 Applications"
+    "section": "5.2 Applications",
+    "text": "5.2 Applications\nHow data would help with policy goal and help solve the challenge\nKey indicators of this problem which could be understood better are land degradation, land consumption rate including land cover change, and climate change.\nData would address identifying land consumption, climate change vulnerability and degraded land\nthis has been used elsewhere and can be applied Kinshasa\nClimate change:\n\nRisk classification/assessment\nWith a loss of habitats, there is a higher risk of vulnerability\nAllow for local government to implement specific and targeted policies\n\nLand degradation:\n\nSoil erosion will reduce agricultural productivity\nIncreasing deforestation and bad agricultural practices occurring in the city and around the country\nGEE SEPAL - use 10m fine resolution data\nData needed may include indicators such as deforestation, conversion of cropland to settlements, conversion of grassland to cropland\n\nLand consumption rate:\n\nExpansion of urban areas versus population growth\nUrban growth using Sentinel-2 data, population growth from WorldPop data\nIncorporates land cover change\nLand is being converted at a fast rate for livestock, to account for population growth, and as many farmers are moving to the city due to loss of agricultural work in rural areas\nThere is currently a model (GLOBIOM) which is a model the represent land use competition which is being applied to the DRC (Mosnier, et al., 2016)\n\nThese uses of remote sensing data can provide insight into where sustainable management and conservation is needed in the city. it is important to address pressures of climate change, population growth and land use changes in the city to provide more sustainable plans and targeted better planning to those high risk areas. This is especially important in the context of Kinshasa’s very high population growth rate.\n\nMore integrated and targeted approach needed - sustainability at the heart of the approach and solution\nPrioritise areas for intervention - this will also help with urban planning and improved service delivery to these areas\nThe DRC has huge potential - it contains half of Africa’s forests, water resources, and has trillions of dollars of mineral resources - whilst the land degradation and other issues are alarming reports argue that these changes are reversible (UNEP, 2017)\n\nThere are some limitations and considerations which must be accounted for by city planners when addressing this issue:\n\nFunding limitations\nSkills needed\nWhere to start? A specific sub-focus needed first?\nEnsuring the city aligns with global policies"
   },
   {
     "objectID": "week4.html#reflections",
     "href": "week4.html#reflections",
     "title": "4  Week 4 - Policy",
-    "section": "4.3 Reflections",
-    "text": "4.3 Reflections"
+    "section": "5.3 Reflections",
+    "text": "5.3 Reflections\nResearching this policy area in Kinshasa has been a big learning point for me in this module as it has highlighted how remote sensing data can be used to address multiple factors in a city for a common goal. Urban growth and change is complex and it is clear that it is rare than only one issue can be focused on at once as they are all interconnected.\nApplication of data - which was interesting\nClime change vulnerability index"
   },
   {
     "objectID": "week4.html#references",
     "href": "week4.html#references",
     "title": "4  Week 4 - Policy",
-    "section": "4.4 References",
-    "text": "4.4 References"
+    "section": "5.4 References",
+    "text": "5.4 References\nGuerin, T., Loury, M., et al., (2013) 'Planification Urbaine: Kinshasa, racines et perspectives', Groupe Huit, Kinshasa\nMosnier, A., Mant, R., et al. (2016) ‘Modelling Land Use Changes in the Democratic Republic of the Congo 2000–2030’, A report by the REDD-PAC project\nUnited Nations (UN) (2023) ‘The 17 Goals’, available at: https://sdgs.un.org/goals (accessed: 10.3.23)\nUnited National Environmental Programme (2017) ‘UNEP Study Confirms DR Congo’s Potential as Environmental Powerhouse but Warns of Critical Threats’, available at: https://www.unep.org/news-and-stories/story/unep-study-confirms-dr-congos-potential-environmental-powerhouse-warns (accessed: 10.3.23)"
   },
   {
     "objectID": "week5.html#summary",
@@ -348,5 +348,12 @@
     "title": "7  Week 7 - Classification II",
     "section": "7.4 References",
     "text": "7.4 References"
+  },
+  {
+    "objectID": "week4.html",
+    "href": "week4.html",
+    "title": "4  Week 4 - Policy",
+    "section": "",
+    "text": "5 Kinshasa - Using remotely sensed data to combat unsustainable urban growth"
   }
 ]
