@@ -59,7 +59,7 @@ What can be done with GEE?
 
 ## Applications
 
-GEE is now widely used for analysis using remote sensing data to contribute to research in areas such as disease outbreaks and resource management. The mentioning of GEE in publications has grown significantly over the last 3 years, in which keywords related to it commonly mentioned water, time series, cloud cover, model, random forest, and many others (Zhao, et al., 2021). Common applications of GEE apply to and include (Amani, et al., 2020):
+GEE is now widely used for analysis using remote sensing data to contribute to research in areas such as disease outbreaks and resource management. The mentioning of GEE in publications has grown significantly over the last 3 years, in which keywords related to it commonly mentioned water, time series, cloud cover, model, random forest, and many others (Zhao, *et al.,* 2021). Common applications of GEE apply to and include (Amani, *et al.,* 2020):
 
 -   Natural disasters e.g. floods, damage assessments
 
@@ -73,7 +73,7 @@ GEE is now widely used for analysis using remote sensing data to contribute to r
 
 -   And many, many more!!
 
-A specific example of a GEE application is its use in fluvial geomorphology and mapping change in river channels through indicators such as sediment and vegetation (Boothroyd, et al., 2020). GEE has allowed these kinds of fluvial studies to be carried out over a wider space and time range, and has allowed geomorphologists to apply algorithms on unprecedented amounts of data.
+A specific example of a GEE application is its use in fluvial geomorphology and mapping change in river channels through indicators such as sediment and vegetation (Boothroyd, *et al.,* 2020). GEE has allowed these kinds of fluvial studies to be carried out over a wider space and time range, and has allowed geomorphologists to apply algorithms on unprecedented amounts of data.
 
 ```{r echo=FALSE, out.width = "100%", fig.align='center', cache=FALSE, fig.cap="Change in active channel centerline in the Cagayan River, Philippines (Source: Boothroyd, et al., 2020)"}
 knitr::include_graphics('rivers.png')
@@ -94,8 +94,8 @@ Google Earth Engine is a really interesting tool for analysis. It amazes me how 
 
 ## References
 
-Amani, M., Ghorbanian, A., et al. (2020) 'Google Earth Engine Cloud Computing Platform for Remote Sensing Big Data Applications: A Comprehensive Review', IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 13
+Amani, M., Ghorbanian, A., *et al.* (2020) 'Google Earth Engine Cloud Computing Platform for Remote Sensing Big Data Applications: A Comprehensive Review', *IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing,* 13
 
-Boothroyd, R., Williams, R., et al. (2020) 'Applications of Google Earth Engine in fluvialgeomorphology for detecting river channel change', WIREs Water, 8, 1
+Boothroyd, R., Williams, R., *et al.* (2020) 'Applications of Google Earth Engine in fluvialgeomorphology for detecting river channel change', *WIREs Water,* 8, 1
 
-Zhao, Q., Yu, L., et al. (2021) 'Progress and Trends in the Application of Google Earth and Google Earth Engine', Remote Sensing, 13
+Zhao, Q., Yu, L., *et al.* (2021) 'Progress and Trends in the Application of Google Earth and Google Earth Engine', *Remote Sensing,* 13

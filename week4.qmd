@@ -26,7 +26,7 @@ knitr::include_graphics('kinshasa2.png')
 
 ```
 
-The DRC's economy relies heavily on agriculture, for both the population's income and food source. This is being jeopardized by urban growth and changing land use. Forest degradation is also becoming more and more of an issue. Land is being degraded further and pollution is increasing due to mining, especially cobalt mining. Decreasing soil quality means that many rural areas are being abandoned for the city which is further contributing to unsustainable urban growth and land pressure (Shapiro, et al., 2021).
+The DRC's economy relies heavily on agriculture, for both the population's income and food source. This is being jeopardized by urban growth and changing land use. Forest degradation is also becoming more and more of an issue. Land is being degraded further and pollution is increasing due to mining, especially cobalt mining. Decreasing soil quality means that many rural areas are being abandoned for the city which is further contributing to unsustainable urban growth and land pressure (Shapiro, *et al.*, 2021).
 
 This is representative of wider issues in cities across the world, particularly in sub-Saharan Africa where population growth rates and urbanisation are high. Better tools are needed to understand the effects of these factors on issues such as food insecurity and service delivery. Additionally, more analysis is needed to understand where unsustainable urban development is occurring specifically in order to implement targeted sustainability policies to protect the environment and population in the future.
 
@@ -72,7 +72,7 @@ Land consumption rate:
 
 -   Land is being converted at a fast rate for livestock uses and to account for population growth. Many farmers are moving to the city due to loss of agricultural work in rural areas
 
--   There is currently a model (GLOBIOM) which represents land use competition. It is being applied to the DRC (Mosnier, et al., 2016)
+-   There is currently a model (GLOBIOM) which represents land use competition. It is being applied to the DRC (Mosnier, *et al.,* 2016)
 
 These uses of remote sensing data can provide insight into where sustainable management and conservation is needed in the city. It is important to address pressures of climate change, population growth and land use changes in the city to provide more sustainable plans and targeted interventions to those high risk areas. This is especially important in the context of Kinshasa's very high population growth rate.
 
@@ -100,13 +100,13 @@ Researching this policy area in Kinshasa has been a big learning point for me in
 
 ## References
 
-Adhikari, S., Koirala, P. et al. (2022) 'Planning for Sustainable Cities in Africa: Experiences, Challenges and Prospects of Monitoring Geospatial Indicators', Remote Sensing, 14
+Adhikari, S., Koirala, P. *et al*. (2022) 'Planning for Sustainable Cities in Africa: Experiences, Challenges and Prospects of Monitoring Geospatial Indicators', *Remote Sensing*, 14
 
 Guerin, T., Loury, M., *et al.,* (2013) 'Planification Urbaine: Kinshasa, racines et perspectives', Groupe Huit, Kinshasa
 
-Mosnier, A., Mant, R., et al. (2016) 'Modelling Land Use Changes in the Democratic Republic of the Congo 2000--2030', A report by the REDD-PAC project
+Mosnier, A., Mant, R., *et al.* (2016) 'Modelling Land Use Changes in the Democratic Republic of the Congo 2000--2030', A report by the REDD-PAC project
 
-Shapiro, A., Bernhard, K., et al. (2021) 'Proximate Causes of Forest Degradation in the Democratic Republic of the Congo Vary in Space and Time', Frontiers in Conservation Science, 2
+Shapiro, A., Bernhard, K., *et al.* (2021) 'Proximate Causes of Forest Degradation in the Democratic Republic of the Congo Vary in Space and Time', *Frontiers in Conservation Science*, 2
 
 United Nations (UN) (2023) 'The 17 Goals', available at: https://sdgs.un.org/goals (accessed: 10.3.23)
 
